@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uy.edu.ude.core.HipotenusaServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-04-28T22:12:08" hostname="juan-laptop" time="0.001">
+  <properties/>
+  <testcase name="shouldGetHipotenusaEqualsToSqrt2" classname="uy.edu.ude.core.HipotenusaServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

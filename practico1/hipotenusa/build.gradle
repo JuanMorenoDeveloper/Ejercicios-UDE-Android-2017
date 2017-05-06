@@ -1,0 +1,36 @@
+group 'uy.edu.ude'
+version '1.0-SNAPSHOT'
+//Plugins de calidad de codigo
+//apply plugin: 'checkstyle'
+//apply plugin: 'findbugs'
+//apply plugin: 'pmd'
+//tasks.withType(FindBugs) {
+//    reports {
+//        xml.enabled false
+//        html.enabled true
+//    }
+//}
+//tasks.withType(Checkstyle) {
+//    reports {
+//        xml.enabled false
+//        html.enabled true
+//    }
+//}
+//
+apply plugin: 'java'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'uy.edu.ude.main.Main'
+        )
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

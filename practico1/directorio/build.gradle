@@ -1,0 +1,22 @@
+group 'uy.edu.ude'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+           'Main-Class': 'uy.edu.ude.main.Main'
+        )
+    }
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+

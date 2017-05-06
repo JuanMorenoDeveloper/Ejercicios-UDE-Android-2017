@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hipotenusa.iml" filepath="$PROJECT_DIR$/.idea/modules/hipotenusa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hipotenusa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hipotenusa_main.iml" group="hipotenusa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hipotenusa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hipotenusa_test.iml" group="hipotenusa" />
+    </modules>
+  </component>
+</project>
