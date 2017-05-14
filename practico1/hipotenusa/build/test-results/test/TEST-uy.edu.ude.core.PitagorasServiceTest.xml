@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="uy.edu.ude.core.PitagorasServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-04T01:46:29" hostname="juan-laptop" time="0.001">
-  <properties/>
-  <testcase name="shouldGetHipotenusaEqualsToSqrt2" classname="uy.edu.ude.core.PitagorasServiceTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
