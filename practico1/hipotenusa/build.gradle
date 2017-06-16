@@ -2,20 +2,20 @@ group 'uy.edu.ude'
 version '1.0-SNAPSHOT'
 //Plugins de calidad de codigo
 //apply plugin: 'checkstyle'
-//apply plugin: 'findbugs'
-//apply plugin: 'pmd'
-//tasks.withType(FindBugs) {
-//    reports {
-//        xml.enabled false
-//        html.enabled true
-//    }
-//}
-//tasks.withType(Checkstyle) {
-//    reports {
-//        xml.enabled false
-//        html.enabled true
-//    }
-//}
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled false
+        html.enabled true
+    }
+}
+/*tasks.withType(Checkstyle) {
+    reports {
+        xml.enabled false
+        html.enabled true
+    }
+}*/
 //
 apply plugin: 'java'
 sourceCompatibility = 1.8
@@ -33,4 +33,5 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    //compile group: 'commons-io', name: 'commons-io', version: '2.5'
 }
