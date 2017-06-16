@@ -14,7 +14,7 @@ import uy.edu.ude.miprimeraapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
-  private final static String TAG = "MainActivity";
+  private static final String TAG = "MainActivity";
   private TextView txtHelloWorld;
   private EditText editNombre;
   private Button btnAceptar;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     this.editNombre = (EditText) findViewById(R.id.editNombre);
     this.btnAceptar.setOnClickListener(new View.OnClickListener() {
       @Override
-      public void onClick(final View v) {
+      public void onClick(final View view) {
         final String nombre = MainActivity.this.editNombre.getText().toString();
         Log.d(TAG, nombre);
         Toast.makeText(
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
       }
     });
+    View view = new View(this);
     //Upcasting
-    View v = new View(this);
-    v = this.editNombre;
+    view = this.editNombre;
   }
 }

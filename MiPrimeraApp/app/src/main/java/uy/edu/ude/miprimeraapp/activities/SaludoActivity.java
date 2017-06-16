@@ -11,7 +11,7 @@ import uy.edu.ude.miprimeraapp.R;
 
 public class SaludoActivity extends AppCompatActivity {
 
-  private final static String TAG = "SaludoActivity ";
+  private static final String TAG = "SaludoActivity ";
   @BindView(R.id.txtSaludo)
   TextView txtSaludo;
 

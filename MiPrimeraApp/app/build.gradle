@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply from: '../AndroidCodeQualityConfig/quality.gradle'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -30,3 +31,4 @@ dependencies {
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterknifeVersion"
     testCompile "junit:junit:$rootProject.ext.junitVersion"
 }
+
