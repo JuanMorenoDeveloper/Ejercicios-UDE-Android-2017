@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:orientation="vertical"
+              android:weightSum="100">
+
+    <!-- Alinea componente layout_gravity-->
+    <!-- Alinea contenido de gravity-->
+    <!-- Alinea textAlignment texto de componente-->
+    <!--1/3 pantalla-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33"
+        android:gravity="center"
+        android:text="@string/main_txt_hello_world"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="34"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33"
+        android:gravity="center"
+        android:text="@string/main_txt_hello_world"/>
+</LinearLayout>

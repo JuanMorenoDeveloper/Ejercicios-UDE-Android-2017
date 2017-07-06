@@ -41,10 +41,12 @@ public class MainActivity extends AppCompatActivity {
         bundle.putString("nombre", nombre);
         intent.putExtras(bundle);
         startActivity(intent);
+
       }
     });
     View view = new View(this);
     //Upcasting
     view = this.editNombre;
+
   }
 }

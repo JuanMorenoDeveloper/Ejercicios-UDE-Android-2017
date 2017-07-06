@@ -2,28 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical"
-    >
-
-    <TextView
-        android:id="@+id/txtHello"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/main_txt_hello_world"/>
+              android:orientation="vertical">
 
     <EditText
-        android:id="@+id/editNombre"
+        android:id="@+id/inUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="Ingrese su nombre"/>
+        android:hint="@string/user_hint"/>
+
+    <EditText
+        android:id="@+id/inPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"/>
 
     <Button
-        android:id="@+id/btnAceptar"
+        android:id="@+id/btnSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"/>
-
+        android:text="@string/btn_singin"/>
 </LinearLayout>

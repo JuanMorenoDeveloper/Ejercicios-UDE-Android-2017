@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Práctico 3</string>
+    <string name="main_txt_hello_world">Hola mundo</string>
+    <string name="user_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_singin">Ok</string>
+</resources>
