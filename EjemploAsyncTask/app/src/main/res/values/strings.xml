@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploAsyncTask</string>
+    <string name="btn_progressbar">ProgressBar</string>
+    <string name="btn_progressdialog">ProgressDialog</string>
+    <string name="btn_principal">Principal</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="tv_principal">Principal</string>
+    <string name="tv_progressbar">Progress Bar</string>
+    <string name="tv_progressdialog">Progress Dialog</string>
+</resources>
