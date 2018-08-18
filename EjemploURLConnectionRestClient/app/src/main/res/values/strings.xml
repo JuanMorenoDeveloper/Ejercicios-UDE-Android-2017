@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EjemploURLConnectionRestClient</string>
+    <string name="lbl_type">Type</string>
+    <string name="lbl_id">Id</string>
+    <string name="lbl_quote">Quote</string>
+    <string name="lbl_btn_query">Enviar petición</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aplicación Class</string>
+    <string name="lbl_type">Type</string>
+    <string name="lbl_id">Id</string>
+    <string name="lbl_quote">Quote</string>
+    <string name="lbl_btn_query">Enviar petición</string>
+    <string-array name="preview_departamentos">
+        <item>Montevideo</item>
+    </string-array>
+    <string-array name="preview_roles">
+        <item>Estudiante</item>
+    </string-array>
+</resources>

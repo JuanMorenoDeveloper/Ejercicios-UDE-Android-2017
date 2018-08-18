@@ -4,7 +4,7 @@ import uy.edu.ude.dto.Triangulo;
 
 public class PitagorasService {
     public double getHipotenusaByCatetos(double c1, double c2) {
-        return Math.sqrt(Math.pow(c1, 2) + Math.pow(c2, 2));
+        return Math.sqrt(Math.pow(c1, 3) + Math.pow(c2, 2));
     }
 
     private double getCatetoFaltanteByHipotenusaAndCateto(double h, double c) {
