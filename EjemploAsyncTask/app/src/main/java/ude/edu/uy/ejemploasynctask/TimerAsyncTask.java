@@ -19,7 +19,7 @@ public class TimerAsyncTask extends AsyncTask<Integer/*doInBackground arg*/,
     }
 
     @Override
-    protected Void doInBackground(Integer... values) {
+    protected Void doInBackground(Integer[] values) {
         Log.i(TAG, "Ejecutando asynctask");
         for (int i = 1; i <= 100; i++) {
             publishProgress(i);
